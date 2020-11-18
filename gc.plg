@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/gc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CSAPPLab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\driver.c"
+"C:\CSAPPLab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/gc.pdb" /debug /machine:I386 /out:"Debug/gc.exe" /pdbtype:sept 
+".\Debug\driver.obj"
+".\Debug\dump.obj"
+".\Debug\ftime_win32.obj"
+".\Debug\getopt.obj"
+".\Debug\malloc.obj"
+".\Debug\memlib.obj"
+".\Debug\splay_tree.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3CB.tmp"
+<h3>Output Window</h3>
+Compiling...
+driver.c
+C:\CSAPPLab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\driver.c(202) : warning C4101: 'wait' : unreferenced local variable
+malloc.c
+c:\csapplab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c(286) : warning C4047: '>=' : 'int ' differs in levels of indirection from 'char *'
+c:\csapplab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c(286) : warning C4047: '<=' : 'int ' differs in levels of indirection from 'char *'
+c:\csapplab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c(324) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+c:\csapplab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c(325) : warning C4022: 'verify_garbage' : pointer mismatch for actual parameter 1
+c:\csapplab\slp-week08_lab\lab_garbage_collector\lab_garbage_collector\malloc.c(230) : warning C4101: 'registers' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/gc.bsc"  ".\Debug\driver.sbr" ".\Debug\dump.sbr" ".\Debug\ftime_win32.sbr" ".\Debug\getopt.sbr" ".\Debug\malloc.sbr" ".\Debug\memlib.sbr" ".\Debug\splay_tree.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+gc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
